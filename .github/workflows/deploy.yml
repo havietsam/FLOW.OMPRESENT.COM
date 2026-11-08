@@ -1,0 +1,16 @@
+name: Deploy FLOW.OMPRESENT.COM to HawkHost
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Deploy to HawkHost cPanel
+      run: |
+        echo "Repository synced successfully. Workstation handles hot sync directly via SSH Deploy Key."

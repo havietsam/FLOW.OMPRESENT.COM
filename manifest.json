@@ -1,0 +1,43 @@
+{
+  "name": "OMPRESENT FLOW \u2022 Daytime Somatic Sanctuary",
+  "short_name": "OMPRESENT FLOW",
+  "description": "Clinical acoustic medicine for daytime focus, morning cortisol flush, and vagus nerve regulation.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080C16",
+  "theme_color": "#080C16",
+  "icons": [
+    {
+      "src": "assets/images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
