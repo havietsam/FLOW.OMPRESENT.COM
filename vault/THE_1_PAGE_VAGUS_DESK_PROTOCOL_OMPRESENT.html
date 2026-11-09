@@ -13,7 +13,123 @@
         ul { margin-left: 20px; }
         li { margin-bottom: 8px; }
         .footer { text-align: center; margin-top: 30px; font-size: 11px; color: #64748b; letter-spacing: 0.15em; text-transform: uppercase; }
-    </style>
+    
+/* Quiet Luxury Language Dropdown Popover */
+.lang-selector-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.lang-dropdown-trigger {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(180, 143, 78, 0.35);
+    color: var(--color-text-main);
+    padding: 7px 14px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(12px);
+    font-family: inherit;
+}
+.lang-dropdown-trigger:hover, .lang-dropdown-trigger.active {
+    background: rgba(180, 143, 78, 0.18);
+    border-color: var(--color-gold-bright);
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(180, 143, 78, 0.25);
+}
+.lang-chevron {
+    transition: transform 0.25s ease;
+    color: var(--color-gold);
+}
+.lang-dropdown-trigger.active .lang-chevron {
+    transform: rotate(180deg);
+}
+.lang-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 250px;
+    max-height: 420px;
+    background: rgba(14, 20, 36, 0.97);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(180, 143, 78, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(180, 143, 78, 0.15);
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    animation: langFadeIn 0.2s ease-out;
+}
+.lang-dropdown-menu.show {
+    display: flex;
+}
+@keyframes langFadeIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.lang-dropdown-header {
+    padding: 12px 16px 8px;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--color-gold);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.lang-dropdown-list {
+    overflow-y: auto;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.lang-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+.lang-option:hover {
+    background: rgba(180, 143, 78, 0.15);
+    color: #ffffff;
+}
+.lang-option.active {
+    background: rgba(180, 143, 78, 0.22);
+    color: var(--color-gold-bright);
+    font-weight: 600;
+}
+.lang-option.active::after {
+    content: '✓';
+    color: var(--color-gold-bright);
+    font-weight: 700;
+    margin-left: 8px;
+}
+.lang-opt-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lang-opt-code {
+    font-size: 10.5px;
+    color: var(--color-text-dark);
+    font-weight: 600;
+}
+.lang-option.active .lang-opt-code {
+    color: var(--color-gold);
+}
+
+</style>
 </head>
 <body>
     <div class="card">
@@ -45,5 +161,37 @@
             OMPRESENT FLOW • SOVEREIGN CLINICAL ACOUSTIC SYSTEM • HTTPS://FLOW.OMPRESENT.COM
         </div>
     </div>
+<script>
+
+    // Quiet Luxury Language Dropdown Toggle
+    function toggleLangDropdown(e) {
+        if (e) e.stopPropagation();
+        const trigger = document.getElementById('langDropdownTrigger');
+        const menu = document.getElementById('langDropdownMenu');
+        if (!menu || !trigger) return;
+        const isOpen = menu.classList.contains('show');
+        if (isOpen) {
+            menu.classList.remove('show');
+            trigger.classList.remove('active');
+        } else {
+            menu.classList.add('show');
+            trigger.classList.add('active');
+        }
+    }
+
+    // Auto-close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        const wrapper = document.getElementById('langSelectorWrapper');
+        const trigger = document.getElementById('langDropdownTrigger');
+        const menu = document.getElementById('langDropdownMenu');
+        if (menu && menu.classList.contains('show')) {
+            if (wrapper && !wrapper.contains(e.target)) {
+                menu.classList.remove('show');
+                if (trigger) trigger.classList.remove('active');
+            }
+        }
+    });
+
+</script>
 </body>
 </html>

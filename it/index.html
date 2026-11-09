@@ -814,6 +814,122 @@ body {
     display: inline-block;
 }
 
+
+/* Quiet Luxury Language Dropdown Popover */
+.lang-selector-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.lang-dropdown-trigger {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(180, 143, 78, 0.35);
+    color: var(--color-text-main);
+    padding: 7px 14px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(12px);
+    font-family: inherit;
+}
+.lang-dropdown-trigger:hover, .lang-dropdown-trigger.active {
+    background: rgba(180, 143, 78, 0.18);
+    border-color: var(--color-gold-bright);
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(180, 143, 78, 0.25);
+}
+.lang-chevron {
+    transition: transform 0.25s ease;
+    color: var(--color-gold);
+}
+.lang-dropdown-trigger.active .lang-chevron {
+    transform: rotate(180deg);
+}
+.lang-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 250px;
+    max-height: 420px;
+    background: rgba(14, 20, 36, 0.97);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(180, 143, 78, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(180, 143, 78, 0.15);
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    animation: langFadeIn 0.2s ease-out;
+}
+.lang-dropdown-menu.show {
+    display: flex;
+}
+@keyframes langFadeIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.lang-dropdown-header {
+    padding: 12px 16px 8px;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--color-gold);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.lang-dropdown-list {
+    overflow-y: auto;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.lang-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+.lang-option:hover {
+    background: rgba(180, 143, 78, 0.15);
+    color: #ffffff;
+}
+.lang-option.active {
+    background: rgba(180, 143, 78, 0.22);
+    color: var(--color-gold-bright);
+    font-weight: 600;
+}
+.lang-option.active::after {
+    content: '✓';
+    color: var(--color-gold-bright);
+    font-weight: 700;
+    margin-left: 8px;
+}
+.lang-opt-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lang-opt-code {
+    font-size: 10.5px;
+    color: var(--color-text-dark);
+    font-weight: 600;
+}
+.lang-option.active .lang-opt-code {
+    color: var(--color-gold);
+}
+
 </style>
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -837,11 +953,11 @@ body {
     
     <!-- Tri-Portal Sovereign Ecosystem Bar -->
     <div class="tri-portal-bar">
-        <span>🏛️ <a href="https://ompresent.com">OMPRESENT Ecosystem</a></span>
+        <span>🏛️ <a href="https://ompresent.com">Ecosistema OMPRESENT</a></span>
         <span style="opacity:0.4;">|</span>
-        <span>☀️ <strong>Flow Sanctuary (Day)</strong></span>
+        <span>☀️ <strong>Santuario del Flusso (Giorno)</strong></span>
         <span style="opacity:0.4;">|</span>
-        <span>🌙 <a href="https://sleep.ompresent.com">Sleep Sanctuary (Night)</a></span>
+        <span>🌙 <a href="https://sleep.ompresent.com">Santuario del Sonno (Notte)</a></span>
         <span style="opacity:0.4;">|</span>
         <span>🕊️ <a href="https://www.youtube.com/@OmPresentFlow" target="_blank" rel="noopener">YouTube: @OmPresentFlow</a></span>
     </div>
@@ -858,22 +974,135 @@ body {
             </a>
             
             <nav class="nav-links-desktop">
-                <a href="../cortisol-stress-reset/">Cortisol Reset</a>
-                <a href="../deep-work-flow-state/">Deep Work Flow</a>
-                <a href="../heart-coherence-breathing/">Heart Coherence</a>
-                <a href="https://sleep.ompresent.com" style="color:var(--color-gold);">🌙 Sleep Sanctuary</a>
+                <a href="../cortisol-stress-reset/">Reset Cortisolo</a>
+                <a href="../deep-work-flow-state/">Flusso Deep Work</a>
+                <a href="../heart-coherence-breathing/">Coerenza Cardiaca</a>
+                <a href="https://sleep.ompresent.com" style="color:var(--color-gold);">🌙 Santuario del Sonno</a>
             </nav>
             
             <div class="nav-actions">
                 <button class="btn-pill-action" id="pwaInstallBtn" style="display:none;" onclick="installPWA()">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    <span>Install App</span>
+                    <span>Installa Applicazione</span>
                 </button>
                 
-                <button class="btn-pill-action" onclick="openLangModal()">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                    <span>Languages</span>
-                </button>
+                <div class="lang-selector-wrapper" id="langSelectorWrapper">
+                    <button class="lang-dropdown-trigger" id="langDropdownTrigger" onclick="toggleLangDropdown(event)" aria-label="Select Language">
+                        <span>🇮🇹</span>
+                        <span>Italiano</span>
+                        <svg class="lang-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="lang-dropdown-menu" id="langDropdownMenu">
+                        <div class="lang-dropdown-header">Select Language / Region</div>
+                        <div class="lang-dropdown-list">
+<a href="/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🌐</span>
+                        <span>English</span>
+                    </span>
+                    <span class="lang-opt-code">EN</span>
+                </a>
+<a href="/vi/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇻🇳</span>
+                        <span>Tiếng Việt</span>
+                    </span>
+                    <span class="lang-opt-code">VI</span>
+                </a>
+<a href="/ja/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇯🇵</span>
+                        <span>日本語</span>
+                    </span>
+                    <span class="lang-opt-code">JA</span>
+                </a>
+<a href="/de/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇩🇪</span>
+                        <span>Deutsch</span>
+                    </span>
+                    <span class="lang-opt-code">DE</span>
+                </a>
+<a href="/es/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇪🇸</span>
+                        <span>Español</span>
+                    </span>
+                    <span class="lang-opt-code">ES</span>
+                </a>
+<a href="/fr/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇫🇷</span>
+                        <span>Français</span>
+                    </span>
+                    <span class="lang-opt-code">FR</span>
+                </a>
+<a href="/pt/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇵🇹</span>
+                        <span>Português</span>
+                    </span>
+                    <span class="lang-opt-code">PT</span>
+                </a>
+<a href="/ko/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇰🇷</span>
+                        <span>한국어</span>
+                    </span>
+                    <span class="lang-opt-code">KO</span>
+                </a>
+<a href="/cn/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇨🇳</span>
+                        <span>简体中文</span>
+                    </span>
+                    <span class="lang-opt-code">CN</span>
+                </a>
+<a href="/tw/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇹🇼</span>
+                        <span>繁體中文</span>
+                    </span>
+                    <span class="lang-opt-code">TW</span>
+                </a>
+<a href="/hi/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇮🇳</span>
+                        <span>हिन्दी</span>
+                    </span>
+                    <span class="lang-opt-code">HI</span>
+                </a>
+<a href="/id/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇮🇩</span>
+                        <span>Bahasa Indonesia</span>
+                    </span>
+                    <span class="lang-opt-code">ID</span>
+                </a>
+<a href="/ar/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇦🇪</span>
+                        <span>العربية</span>
+                    </span>
+                    <span class="lang-opt-code">AR</span>
+                </a>
+<a href="/it/" class="lang-option active">
+                    <span class="lang-opt-left">
+                        <span>🇮🇹</span>
+                        <span>Italiano</span>
+                    </span>
+                    <span class="lang-opt-code">IT</span>
+                </a>
+<a href="/ru/" class="lang-option">
+                    <span class="lang-opt-left">
+                        <span>🇷🇺</span>
+                        <span>Русский</span>
+                    </span>
+                    <span class="lang-opt-code">RU</span>
+                </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -896,24 +1125,13 @@ body {
                     <span class="player-meta-label">EP02 • CORTISOL DETOX & VAGAL TONE</span>
                     <h2 class="player-meta-title">Vagus Nerve Reset: Flush Cortisol & Stress</h2>
                 </div>
-                <a href="../" class="btn-enter-flow">Switch to English Portal ➔</a>
+                <a href="/" class="btn-enter-flow">Passa al portale inglese ➔</a>
             </div>
         </div>
     </main>
     
     
-    <!-- Language Modal -->
-    <div id="langModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(8,12,22,0.92); backdrop-filter:blur(16px); z-index:1000; align-items:center; justify-content:center; padding:20px;">
-        <div style="background:#0e1424; border:1px solid rgba(180,143,78,0.35); border-radius:24px; max-width:640px; width:100%; padding:32px; box-shadow:0 20px 60px rgba(0,0,0,0.8);">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
-                <h3 style="font-family:var(--font-serif); font-size:22px; color:#fff;">Global Languages (15)</h3>
-                <button onclick="closeLangModal()" style="background:transparent; border:none; color:var(--color-text-muted); font-size:24px; cursor:pointer;">&times;</button>
-            </div>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:10px; max-height:60vh; overflow-y:auto; padding-right:6px;">
-                <a href="../" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>English</span><span style="color:var(--color-gold); font-size:10px;">EN</span></a><a href="../ja/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>日本語 (Japanese)</span><span style="color:var(--color-gold); font-size:10px;">JA</span></a><a href="../de/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Deutsch (German)</span><span style="color:var(--color-gold); font-size:10px;">DE</span></a><a href="../es/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Español (Spanish)</span><span style="color:var(--color-gold); font-size:10px;">ES</span></a><a href="../fr/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Français (French)</span><span style="color:var(--color-gold); font-size:10px;">FR</span></a><a href="../pt/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Português (Portuguese)</span><span style="color:var(--color-gold); font-size:10px;">PT</span></a><a href="../ko/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>한국어 (Korean)</span><span style="color:var(--color-gold); font-size:10px;">KO</span></a><a href="../hi/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>हिन्दी (Hindi)</span><span style="color:var(--color-gold); font-size:10px;">HI</span></a><a href="../cn/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>简体中文 (Chinese)</span><span style="color:var(--color-gold); font-size:10px;">ZH-HANS</span></a><a href="../tw/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>繁體中文 (Traditional)</span><span style="color:var(--color-gold); font-size:10px;">ZH-HANT</span></a><a href="../id/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Bahasa Indonesia</span><span style="color:var(--color-gold); font-size:10px;">ID</span></a><a href="../ar/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>العربية (Arabic)</span><span style="color:var(--color-gold); font-size:10px;">AR</span></a><a href="../it/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Italiano (Italian)</span><span style="color:var(--color-gold); font-size:10px;">IT</span></a><a href="../ru/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Русский (Russian)</span><span style="color:var(--color-gold); font-size:10px;">RU</span></a><a href="../vi/" class="btn-pill-action" style="justify-content:space-between; font-size:12.5px;"><span>Tiếng Việt (Vietnamese)</span><span style="color:var(--color-gold); font-size:10px;">VI</span></a>
-            </div>
-        </div>
-    </div>
+    
     
     
     <!-- Footer -->
@@ -924,24 +1142,24 @@ body {
             <span style="font-family:var(--font-serif); font-size:18px; color:#fff; font-weight:700; letter-spacing:0.04em;">OMPRESENT FLOW</span>
         </a>
             
-            <p style="color:var(--color-gold); font-size:12px; letter-spacing:0.25em; text-transform:uppercase; margin-bottom:14px;">PRESENCE IN FLOW • SOVEREIGN CLINICAL ACOUSTIC SYSTEM</p>
+            <p style="color:var(--color-gold); font-size:12px; letter-spacing:0.25em; text-transform:uppercase; margin-bottom:14px;">PRESENZA NEL FLUSSO • SISTEMA ACUSTICO CLINICO SOVRANO</p>
             
             <div class="footer-links">
-                <a href="../">Home</a>
-                <a href="../cortisol-stress-reset/">Cortisol Reset</a>
-                <a href="../deep-work-flow-state/">Deep Work Flow</a>
-                <a href="../heart-coherence-breathing/">Heart Coherence</a>
-                <a href="https://ompresent.com">Mother Portal</a>
-                <a href="https://sleep.ompresent.com">Sleep Sanctuary</a>
-                <a href="https://www.youtube.com/@OmPresentFlow" target="_blank" rel="noopener">YouTube Channel</a>
+                <a href="/it/">Home</a>
+                <a href="../cortisol-stress-reset/">Reset Cortisolo</a>
+                <a href="../deep-work-flow-state/">Flusso Deep Work</a>
+                <a href="../heart-coherence-breathing/">Coerenza Cardiaca</a>
+                <a href="https://ompresent.com">Portale Madre</a>
+                <a href="https://sleep.ompresent.com">Santuario del Sonno</a>
+                <a href="https://www.youtube.com/@OmPresentFlow" target="_blank" rel="noopener">Canale YouTube</a>
             </div>
             
             <p class="medical-disclaimer">
-                <strong>Medical & Clinical Disclaimer:</strong> Sound therapy sessions provided by OMPRESENT are designed for neuro-somatic relaxation, stress reduction, and focus enhancement. They do not constitute formal medical diagnosis or replace personalized psychiatric or neurological care. Calibrated to EBU R128 (-14.1 LUFS) with Velvet Low-Pass 2800Hz filter. Recommended listening level: 35–45% volume.
+                <strong>Disclaimer medico e clinico:</strong> Le sessioni OMPRESENT sono concepite per il rilassamento neuro-somatico e la concentrazione. Non sostituiscono una diagnosi medica. Calibrate su EBU R128 (-14.1 LUFS) con filtro Velvet Low-Pass 2800Hz. Volume consigliato: 35–45%.
             </p>
             
             <p style="color:#334155; font-size:11px;">
-                © 2026 OMPRESENT Sovereign System. All Rights Reserved. Engineered with Luxury Quiet Standard.
+                © 2026 Sistema Sovrano OMPRESENT. Tutti i diritti riservati. Standard Luxury Quiet.
             </p>
         </div>
     </footer>
@@ -1136,5 +1354,37 @@ body {
     </script>
     <script src="https://www.youtube.com/iframe_api"></script>
     
+<script>
+
+    // Quiet Luxury Language Dropdown Toggle
+    function toggleLangDropdown(e) {
+        if (e) e.stopPropagation();
+        const trigger = document.getElementById('langDropdownTrigger');
+        const menu = document.getElementById('langDropdownMenu');
+        if (!menu || !trigger) return;
+        const isOpen = menu.classList.contains('show');
+        if (isOpen) {
+            menu.classList.remove('show');
+            trigger.classList.remove('active');
+        } else {
+            menu.classList.add('show');
+            trigger.classList.add('active');
+        }
+    }
+
+    // Auto-close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        const wrapper = document.getElementById('langSelectorWrapper');
+        const trigger = document.getElementById('langDropdownTrigger');
+        const menu = document.getElementById('langDropdownMenu');
+        if (menu && menu.classList.contains('show')) {
+            if (wrapper && !wrapper.contains(e.target)) {
+                menu.classList.remove('show');
+                if (trigger) trigger.classList.remove('active');
+            }
+        }
+    });
+
+</script>
 </body>
 </html>
