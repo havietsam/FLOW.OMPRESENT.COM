@@ -1,158 +1,708 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://flow.ompresent.com/</loc>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/cortisol-stress-reset/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/cortisol-stress-reset/morning-cortisol-spike-protocol/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/cortisol-stress-reset/somatic-burnout-recovery/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/cortisol-stress-reset/vagus-nerve-vagal-tone-guide/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/deep-work-flow-state/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/deep-work-flow-state/effortless-flow-state-science/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/deep-work-flow-state/overcoming-brain-fog-fatigue/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/deep-work-flow-state/ultradian-deep-work-protocol/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/heart-coherence-breathing/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/heart-coherence-breathing/hrv-resonance-breathing-0-1hz/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/heart-coherence-breathing/quieting-racing-thoughts-dmn/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/heart-coherence-breathing/velvet-acoustic-sound-medicine/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/vagus-nerve-reset-cortisol-flush/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/quiet-racing-thoughts-stop-overthinking/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/clear-brain-fog-instant-deep-focus/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/heart-coherence-reset-deep-calm/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/ja/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/de/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/es/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/fr/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/pt/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/ko/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/hi/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/cn/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/tw/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/id/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/ar/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/it/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://flow.ompresent.com/ru/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
   </url>
   <url>
     <loc>https://flow.ompresent.com/vi/</loc>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/ja/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/de/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/es/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/fr/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/pt/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/ko/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/hi/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/cn/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/tw/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/id/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/ar/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/it/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/ru/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/cortisol-stress-reset/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/cortisol-stress-reset/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/cortisol-stress-reset/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/cortisol-stress-reset/morning-cortisol-spike-protocol/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/cortisol-stress-reset/morning-cortisol-spike-protocol/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/cortisol-stress-reset/morning-cortisol-spike-protocol/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/cortisol-stress-reset/somatic-burnout-recovery/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/cortisol-stress-reset/somatic-burnout-recovery/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/cortisol-stress-reset/somatic-burnout-recovery/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/cortisol-stress-reset/vagus-nerve-vagal-tone-guide/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/cortisol-stress-reset/vagus-nerve-vagal-tone-guide/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/cortisol-stress-reset/vagus-nerve-vagal-tone-guide/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/vagus-nerve-reset-cortisol-flush/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/vagus-nerve-reset-cortisol-flush/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/vagus-nerve-reset-cortisol-flush/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/deep-work-flow-state/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/deep-work-flow-state/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/deep-work-flow-state/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/deep-work-flow-state/effortless-flow-state-science/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/deep-work-flow-state/effortless-flow-state-science/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/deep-work-flow-state/effortless-flow-state-science/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/deep-work-flow-state/overcoming-brain-fog-fatigue/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/deep-work-flow-state/overcoming-brain-fog-fatigue/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/deep-work-flow-state/overcoming-brain-fog-fatigue/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/deep-work-flow-state/ultradian-deep-work-protocol/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/deep-work-flow-state/ultradian-deep-work-protocol/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/deep-work-flow-state/ultradian-deep-work-protocol/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/clear-brain-fog-instant-deep-focus/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/clear-brain-fog-instant-deep-focus/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/clear-brain-fog-instant-deep-focus/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/quiet-racing-thoughts-stop-overthinking/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/quiet-racing-thoughts-stop-overthinking/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/quiet-racing-thoughts-stop-overthinking/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/heart-coherence-breathing/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/heart-coherence-breathing/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/heart-coherence-breathing/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/heart-coherence-breathing/hrv-resonance-breathing-0-1hz/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/heart-coherence-breathing/hrv-resonance-breathing-0-1hz/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/heart-coherence-breathing/hrv-resonance-breathing-0-1hz/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/heart-coherence-breathing/quieting-racing-thoughts-dmn/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/heart-coherence-breathing/quieting-racing-thoughts-dmn/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/heart-coherence-breathing/quieting-racing-thoughts-dmn/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/heart-coherence-breathing/velvet-acoustic-sound-medicine/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/heart-coherence-breathing/velvet-acoustic-sound-medicine/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/heart-coherence-breathing/velvet-acoustic-sound-medicine/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/heart-coherence-reset-deep-calm/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/heart-coherence-reset-deep-calm/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/heart-coherence-reset-deep-calm/" />
+  </url>
+  <url>
+    <loc>https://flow.ompresent.com/vault/THE_1_PAGE_VAGUS_DESK_PROTOCOL_OMPRESENT.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flow.ompresent.com/vault/THE_1_PAGE_VAGUS_DESK_PROTOCOL_OMPRESENT.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://flow.ompresent.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://flow.ompresent.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://flow.ompresent.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://flow.ompresent.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://flow.ompresent.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://flow.ompresent.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://flow.ompresent.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://flow.ompresent.com/cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://flow.ompresent.com/tw/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://flow.ompresent.com/id/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://flow.ompresent.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://flow.ompresent.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://flow.ompresent.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flow.ompresent.com/vault/THE_1_PAGE_VAGUS_DESK_PROTOCOL_OMPRESENT.html" />
   </url>
 </urlset>
