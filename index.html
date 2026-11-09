@@ -51,9 +51,9 @@
     <link rel="alternate" hreflang="vi" href="https://flow.ompresent.com/vi/" />
     
     <!-- Favicons & PWA Manifest -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#080C16" />
     
@@ -885,6 +885,55 @@ body {
     color: var(--color-gold-bright);
 }
 
+
+/* Pixel-Perfect Equal-Width Brand Lockup */
+.brand-lockup-flow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.brand-icon-mandala {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(180, 143, 78, 0.45));
+    flex-shrink: 0;
+}
+.brand-typography {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brand-title-flow {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    line-height: 1.15;
+    white-space: nowrap;
+    display: block;
+}
+.brand-tagline-flow {
+    font-family: var(--font-sans);
+    font-size: 8.5px;
+    font-weight: 600;
+    color: var(--color-gold);
+    text-transform: uppercase;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+}
+.brand-tagline-flow .tagline-gap {
+    width: 8px;
+    display: inline-block;
+}
+
 </style>
 </head>
 <body>
@@ -906,10 +955,10 @@ body {
     <header class="nav-header">
         <div class="sanctuary-container nav-inner">
             <a href="/" class="brand-lockup-flow">
-                <img src="assets/images/logo_mandala_gold.webp" alt="OMPRESENT Mandala Gold" class="brand-icon-mandala" width="48" height="48" />
+                <img src="/assets/images/logo_mandala_gold.webp" alt="OMPRESENT Flow Mandala Gold" class="brand-icon-mandala" width="46" height="46" />
                 <div class="brand-typography">
                     <span class="brand-title-flow">OMPRESENT FLOW</span>
-                    <span class="brand-tagline-flow">P R E S E N C E &nbsp; I N &nbsp; F L O W</span>
+                    <span class="brand-tagline-flow"><span>P</span><span>R</span><span>E</span><span>S</span><span>E</span><span>N</span><span>C</span><span>E</span><span class="tagline-gap"></span><span>I</span><span>N</span><span class="tagline-gap"></span><span>F</span><span>L</span><span>O</span><span>W</span></span>
                 </div>
             </a>
             
@@ -1042,7 +1091,7 @@ body {
                 
         <div class="master-card" onclick="switchMasterVideo('hNE_1vNMMTE', 'Vagus Nerve Reset: Flush Cortisol & Stress', 'EP02 • VAGUS NERVE & CORTISOL DETOX')">
             <div class="card-thumb-wrap">
-                <img src="assets/images/thumb_ep02_vagus_cortisol.webp" width="640" height="360" alt="Vagus Nerve Reset: Flush Cortisol & Stress" loading="lazy" />
+                <img src="/assets/images/thumb_ep02_vagus_cortisol.webp" width="640" height="360" alt="Vagus Nerve Reset: Flush Cortisol & Stress" loading="lazy" />
                 <span class="card-badge">VAGUS NERVE & CORTISOL DETOX</span>
             </div>
             <div class="card-body">
@@ -1058,7 +1107,7 @@ body {
         
         <div class="master-card" onclick="switchMasterVideo('nFJSlJ0UvNM', 'Quiet Racing Thoughts: Stop Overthinking', 'EP06 • DMN INHIBITION & RACING MIND')">
             <div class="card-thumb-wrap">
-                <img src="assets/images/thumb_ep06_quiet_racing_thoughts.webp" width="640" height="360" alt="Quiet Racing Thoughts: Stop Overthinking" loading="lazy" />
+                <img src="/assets/images/thumb_ep06_quiet_racing_thoughts.webp" width="640" height="360" alt="Quiet Racing Thoughts: Stop Overthinking" loading="lazy" />
                 <span class="card-badge">DMN INHIBITION & RACING MIND</span>
             </div>
             <div class="card-body">
@@ -1074,7 +1123,7 @@ body {
         
         <div class="master-card" onclick="switchMasterVideo('WSBV-UF7_Kc', 'Clear Brain Fog: Instant Deep Focus', 'EP03 • DEEP WORK & ATTENTION RESTORATION')">
             <div class="card-thumb-wrap">
-                <img src="assets/images/thumb_ep03_clear_brain_fog.webp" width="640" height="360" alt="Clear Brain Fog: Instant Deep Focus" loading="lazy" />
+                <img src="/assets/images/thumb_ep03_clear_brain_fog.webp" width="640" height="360" alt="Clear Brain Fog: Instant Deep Focus" loading="lazy" />
                 <span class="card-badge">DEEP WORK & ATTENTION RESTORATION</span>
             </div>
             <div class="card-body">
@@ -1090,7 +1139,7 @@ body {
         
         <div class="master-card" onclick="switchMasterVideo('Hq88XwWsblA', 'Heart Coherence Reset: 0.1Hz Deep Calming', 'EP07 • HRV COHERENCE & EMOTIONAL REGULATION')">
             <div class="card-thumb-wrap">
-                <img src="assets/images/thumb_ep07_heart_coherence.webp" width="640" height="360" alt="Heart Coherence Reset: 0.1Hz Deep Calming" loading="lazy" />
+                <img src="/assets/images/thumb_ep07_heart_coherence.webp" width="640" height="360" alt="Heart Coherence Reset: 0.1Hz Deep Calming" loading="lazy" />
                 <span class="card-badge">HRV COHERENCE & EMOTIONAL REGULATION</span>
             </div>
             <div class="card-body">
@@ -1106,7 +1155,7 @@ body {
         
         <div class="master-card" onclick="switchMasterVideo('4qWZIBCqHL8', 'Nervous System Reset: Vagus Nerve Healing', 'EP05 • SOMATIC BURNOUT RECOVERY')">
             <div class="card-thumb-wrap">
-                <img src="assets/images/thumb_ep05_nervous_system.webp" width="640" height="360" alt="Nervous System Reset: Vagus Nerve Healing" loading="lazy" />
+                <img src="/assets/images/thumb_ep05_nervous_system.webp" width="640" height="360" alt="Nervous System Reset: Vagus Nerve Healing" loading="lazy" />
                 <span class="card-badge">SOMATIC BURNOUT RECOVERY</span>
             </div>
             <div class="card-body">
@@ -1186,7 +1235,7 @@ body {
             <!-- Silo 1 -->
             <article class="silo-card-wide">
                 <div class="silo-img-box">
-                    <img src="assets/images/s1_cortisol_stress_reset.webp" width="640" height="360" alt="Cortisol Stress Reset" loading="lazy" />
+                    <img src="/assets/images/s1_cortisol_stress_reset.webp" width="640" height="360" alt="Cortisol Stress Reset" loading="lazy" />
                 </div>
                 <div class="silo-info-box">
                     <span class="silo-tag">MACRO SILO 1 • AUTONOMIC DETOX</span>
@@ -1206,7 +1255,7 @@ body {
             <!-- Silo 2 -->
             <article class="silo-card-wide">
                 <div class="silo-img-box">
-                    <img src="assets/images/s2_deep_work_flow_state.webp" width="640" height="360" alt="Deep Work Flow State" loading="lazy" />
+                    <img src="/assets/images/s2_deep_work_flow_state.webp" width="640" height="360" alt="Deep Work Flow State" loading="lazy" />
                 </div>
                 <div class="silo-info-box">
                     <span class="silo-tag">MACRO SILO 2 • OPTIMAL EXPERIENCE</span>
@@ -1226,7 +1275,7 @@ body {
             <!-- Silo 3 -->
             <article class="silo-card-wide">
                 <div class="silo-img-box">
-                    <img src="assets/images/s3_heart_coherence_breathing.webp" width="640" height="360" alt="Heart Coherence Breathing" loading="lazy" />
+                    <img src="/assets/images/s3_heart_coherence_breathing.webp" width="640" height="360" alt="Heart Coherence Breathing" loading="lazy" />
                 </div>
                 <div class="silo-info-box">
                     <span class="silo-tag">MACRO SILO 3 • CARDIAC ACOUSTICS</span>
@@ -1272,10 +1321,10 @@ body {
     <!-- Footer -->
     <footer class="sanctuary-footer">
         <div class="sanctuary-container">
-            <a href="" class="footer-logo">
-                <img src="assets/images/logo_mandala_gold.webp" alt="OMPRESENT Mandala" width="40" height="40" />
-                <span style="font-family:var(--font-serif); font-size:18px; color:#fff; font-weight:700;">OMPRESENT FLOW</span>
-            </a>
+            <a href="/" class="footer-logo" style="text-decoration:none; display:inline-flex; align-items:center; gap:12px;">
+            <img src="/assets/images/logo_mandala_gold.webp" alt="OMPRESENT Flow Mandala Gold" width="36" height="36" style="filter:drop-shadow(0 0 8px rgba(180,143,78,0.4));" />
+            <span style="font-family:var(--font-serif); font-size:18px; color:#fff; font-weight:700; letter-spacing:0.04em;">OMPRESENT FLOW</span>
+        </a>
             
             <p style="color:var(--color-gold); font-size:12px; letter-spacing:0.25em; text-transform:uppercase; margin-bottom:14px;">PRESENCE IN FLOW • SOVEREIGN CLINICAL ACOUSTIC SYSTEM</p>
             

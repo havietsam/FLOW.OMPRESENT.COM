@@ -736,11 +736,60 @@ body {
     .btn-enter-flow { width: 100%; justify-content: center; }
     .cards-grid-pentad { grid-template-columns: 1fr; }
 }
+
+/* Pixel-Perfect Equal-Width Brand Lockup */
+.brand-lockup-flow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.brand-icon-mandala {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(180, 143, 78, 0.45));
+    flex-shrink: 0;
+}
+.brand-typography {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brand-title-flow {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    line-height: 1.15;
+    white-space: nowrap;
+    display: block;
+}
+.brand-tagline-flow {
+    font-family: var(--font-sans);
+    font-size: 8.5px;
+    font-weight: 600;
+    color: var(--color-gold);
+    text-transform: uppercase;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+}
+.brand-tagline-flow .tagline-gap {
+    width: 8px;
+    display: inline-block;
+}
+
 </style>
 </head>
 <body style="display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center;">
     <div class="sanctuary-container" style="max-width:600px;">
-        <img src="assets/images/logo_mandala_gold.webp" alt="OMPRESENT Mandala" width="64" height="64" style="margin-bottom:20px;" />
+        <img src="/assets/images/logo_mandala_gold.webp" alt="OMPRESENT Mandala" width="64" height="64" style="margin-bottom:20px;" />
         <h1 style="font-family:var(--font-serif); font-size:28px; color:#fff; margin-bottom:12px;">Offline Sanctuary Active</h1>
         <p style="color:var(--color-text-muted); font-size:15px; margin-bottom:30px;">
             You are currently disconnected from the Internet. Your biological breath is your eternal anchor. Follow the 0.1Hz rhythm below to maintain presence.
