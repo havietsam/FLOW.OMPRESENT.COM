@@ -1,4 +1,4 @@
-﻿# OMPRESENT FLOW • Sovereign Clinical Acoustic System
+# OMPRESENT FLOW • Sovereign Clinical Acoustic System
 # Autonomous AI & Search Engine Crawl Policy
 User-agent: *
 Allow: /
@@ -6,6 +6,7 @@ Disallow: /assets/private/
 
 # Sitemap Directives
 Sitemap: https://flow.ompresent.com/sitemap.xml
+Sitemap: https://flow.ompresent.com/feed.xml
 
 # LLM Directives (AGI Crawlers Allowed)
 User-agent: GPTBot
